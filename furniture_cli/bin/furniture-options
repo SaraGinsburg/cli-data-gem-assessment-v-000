@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require './lib/furniture_cli'
+
+FurnitureOptions::CLI.new.call
