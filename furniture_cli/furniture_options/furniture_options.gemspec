@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "furniture_cli/version"
+require "furniture_options/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "furniture_cli"
-  spec.version       = FurnitureCli::VERSION
+  spec.name          = "furniture_options"
+  spec.version       = FurnitureOptions::VERSION
   spec.authors       = ["'Sara Ginsburg'"]
   spec.email         = ["'sara.ginsburg.ny@gmail.com'"]
 
